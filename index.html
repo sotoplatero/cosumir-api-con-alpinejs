@@ -15,9 +15,9 @@
 				.then( res => res.json() )
 				.then( ({ text }) => msg = text )			
 		}">
-			<label for="">Dime tu nombre</label>
+			<label for="name">Dime tu nombre</label>
 			<!--  -->
-			<input type="text" x-model="name">
+			<input name="name" type="text" x-model="name" style="width: 100%">
 		</form>
 		<!-- Mostrar el mensaje -->
 		<template x-if="name">
