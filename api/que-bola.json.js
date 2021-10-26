@@ -7,6 +7,6 @@ module.exports = (req, res) => {
 
   // retornamos un JSON con el saludo
   res.json({
-    text: name ? `${name} que bola asere` : 'Dime tu nombre' 
+    text: name ? `${name}, que bola asere!!` : 'Dime tu nombre' 
   });
 };
